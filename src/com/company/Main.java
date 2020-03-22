@@ -61,13 +61,17 @@ public class Main {
 
         /*int min = number[0]; // Наименьшее число
         for (int i = 0; i < size; i++) {
-            if (min >= number[i]);
+            if (min >= number[i]) {
+                min = number[i];
+            }
         }
-        System.out.println("Наименьшее число:" + min);*/
+        System.out.println("Наименьшее число:" + min);
 
-        /*int max = number[0]; // Наибольшее число
+        int max = number[0]; // Наибольшее число
         for (int i = 0; i < size; i++) {
-            if (max <= number[i]);
+            if (max <= number[i]) {
+                max = number[i];
+            }
         }
         System.out.println("Наибольшее число:" + max);*/
 
